@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.container {
+  margin-top: 3rem;
+  text-align: start;
+}
+
+.form-input {
+  width: 50vw;
+  margin-top: -2rem;
+}
+.heading {
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: -6rem;
+}
+.button {
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: -2rem;
+}
+.summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: -14.5rem;
+}
+.para {
+  margin-left: 29.5rem;
+  width: 50vw;
+}
+.para-1 {
+  margin-left: 20rem;
+  width: 40vw;
+}
+.preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 29rem;
+  max-width: 100%;
+  margin-top: -2rem;
+  overflow: hidden;
+}
+
+h3 {
+  margin-left: -11rem;
+}
+.jap {
+  font-family: "Poppins", sans-serif;
+}
+
+@media (390px <= width <= 540px) {
+  .container {
+    width: 85%;
+    margin-top: 5rem;
+    text-align: start;
+  }
+  .form-input {
+    max-width: 50vw;
+    margin-top: -2rem;
+    flex-wrap: wrap;
+  }
+  .heading {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+  }
+  .form-input {
+    max-width: 50vw;
+    width: 100%;
+  }
+  .container .button {
+    font-size: 1.1rem;
+    flex-wrap: wrap;
+    margin-top: -1.5rem;
+  }
+  .summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .para {
+    width: 100%;
+    margin-left: 0.5rem;
+  }
+  .para-1 {
+    width: 100%;
+    margin-left: 0.5rem;
+  }
+  h3 {
+    margin-left: -8.2rem;
+  }
+  .preview {
+    width: 100%;
+    overflow: hidden;
+    transform: translateX(-14.8rem);
+  }
+}
+
+@media (541px <= width <= 840px) {
+  .container {
+    width: 85%;
+    margin-top: 5rem;
+    text-align: start;
+  }
+  h2 {
+    margin-left: -16.5rem;
+  }
+  .h3 {
+    margin-left: -26rem;
+  }
+  .form-input {
+    max-width: 50vw;
+    margin-top: -2rem;
+    flex-wrap: wrap;
+  }
+  .heading {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+  .form-input {
+    max-width: 50vw;
+    width: 100%;
+  }
+  .container .button {
+    font-size: 1.1rem;
+    flex-wrap: wrap;
+    margin-top: -1.5rem;
+  }
+  .summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .para {
+    width: 100%;
+    margin-left: 0.5rem;
+  }
+  .para-1 {
+    width: 100%;
+    margin-left: 0.5rem;
+  }
+
+  .preview {
+    width: 100%;
+    overflow: hidden;
+    transform: translateX(-14.8rem);
+  }
+}
+
+@media (841px <= width <= 1440px) {
+  .container {
+    width: 85%;
+    margin-top: 5rem;
+    text-align: start;
+  }
+  h2 {
+    margin-left: -16.5rem;
+  }
+  .h3 {
+    margin-left: -26rem;
+  }
+  .form-input {
+    max-width: 50vw;
+    margin-top: -2rem;
+    flex-wrap: wrap;
+  }
+  .heading {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+  .form-input {
+    max-width: 50vw;
+    width: 100%;
+  }
+  .container .button {
+    font-size: 1.1rem;
+    flex-wrap: wrap;
+    margin-top: -1.5rem;
+  }
+  .summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .para {
+    margin-left: 12rem;
+  }
+  .para-1 {
+    margin-left: 3rem;
+  }
+  .preview {
+    width: 100%;
+    overflow: hidden;
+    transform: translateX(-14.8rem);
+  }
+}
