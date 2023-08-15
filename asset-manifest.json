@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/practiceCoder-app/static/css/main.9a7aa4c8.css",
+    "main.js": "/practiceCoder-app/static/js/main.8087c7bf.js",
+    "index.html": "/practiceCoder-app/index.html",
+    "main.9a7aa4c8.css.map": "/practiceCoder-app/static/css/main.9a7aa4c8.css.map",
+    "main.8087c7bf.js.map": "/practiceCoder-app/static/js/main.8087c7bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a7aa4c8.css",
+    "static/js/main.8087c7bf.js"
+  ]
+}
