@@ -27,7 +27,11 @@ function App() {
         text={text}
       />
 
+<<<<<<< HEAD
       <Text  heading="Enter the text here to analyze below" mode={mode} />
+=======
+      <Text heading="Enter the text here to analyze below" mode={mode} />
+>>>>>>> 8a8b9068dbb36e493c4d959d3800495ff8074585
     </>
   );
 }

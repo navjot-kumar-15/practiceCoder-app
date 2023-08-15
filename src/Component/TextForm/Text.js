@@ -37,7 +37,11 @@ export default function Text(props) {
           color: props.mode === "light" ? "black" : "white",
         }}
       >
+<<<<<<< HEAD
         <h1 className="heading text-center mt-3">{props.heading}</h1>
+=======
+        <h1 className="heading">{props.heading}</h1>
+>>>>>>> 8a8b9068dbb36e493c4d959d3800495ff8074585
         <textarea
           className="form-control form-input container my-5"
           id="myBox"
