@@ -68,8 +68,8 @@ export default function Text(props) {
         <div className="container summary">
           <h2>Your text summary</h2>
           <p className="para">
-            <b> {text.split(" ").length}</b> words and <b>{text.length}</b>{" "}
-            character
+            <b> {text.length === 0 ? 0 : text.split(" ").length}</b> words and{" "}
+            <b>{text.length}</b> character
           </p>
           <p className="para-1">
             {0.008 * text.split(" ").length > 0} Minutes to read
