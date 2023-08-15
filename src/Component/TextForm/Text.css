@@ -1,0 +1,27 @@
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+  margin-bottom: 2rem;
+}
+.form-input {
+  width: 60vw;
+  min-width: 300px;
+}
+
+.summary {
+  width: 65%;
+  min-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 469px) {
+  .summary {
+    min-width: 300px;
+  }
+}
