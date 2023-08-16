@@ -26,15 +26,6 @@ export default function Nav(props) {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <form className="d-flex" role="search">
-              {/* <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              /> */}
-              {/* <button className="btn btn-outline-primary" type="submit">
-                Search
-              </button> */}
               <div
                 className={`form-check mx-3 form-switch text-${
                   props.mode === "light" ? "dark" : "light"

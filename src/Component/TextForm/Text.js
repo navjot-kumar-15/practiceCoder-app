@@ -3,6 +3,7 @@ import "./Text.css";
 
 export default function Text(props) {
   const [text, setText] = useState("");
+
   const handleOnChange = (event) => {
     setText(event.target.value);
   };
@@ -14,6 +15,7 @@ export default function Text(props) {
     const tem = text.toLowerCase();
     setText(tem);
   };
+
   const handleClearclick = () => {
     const tem = "";
     setText(tem);
@@ -25,10 +27,6 @@ export default function Text(props) {
     navigator.clipboard.writeText(txt.value);
   };
 
-  //   const handleCapclick = () => {
-  //     const tem = text.toCapitalize();
-  //     setText(tem);
-  //   };
   return (
     <>
       <div

@@ -14,6 +14,7 @@ function App() {
     } else {
       setMode("light");
       setText("Enable ");
+
       document.body.style.backgroundColor = "white";
     }
   };
